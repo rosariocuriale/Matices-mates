@@ -1,0 +1,36 @@
+.container-menu{
+    a{
+        display: flex;
+        justify-content: center;
+        img{
+            width: 250px;
+        }
+    }
+    ul{
+        display: flex;
+        justify-content: center;
+        justify-content: space-evenly;
+        li{
+            list-style: none;
+            :hover{
+                border-bottom: solid 1px rgba(212, 32, 188, 0.719);
+                color: rgba(212, 32, 188, 0.719);
+            }
+            a{
+                text-decoration: none;
+                color: rgb(46, 44, 44);
+                
+            }
+        }
+    }
+
+    .border{
+       margin-left: 105px;
+       margin-right: 105px;
+       border:none;
+       height: 5px;
+       border-radius: 10px;
+       background: linear-gradient(to left, #9BEBE5, #879ADE, #D9A2F5);
+        opacity: 100%;
+    }
+}

@@ -1,0 +1,26 @@
+.container-productos{
+    background-image: linear-gradient(rgba(20, 13, 26, 0.5), rgba(20, 13, 26, 0.5)), url('../src/multimedia/fondo-geometrico-colorido-anos-80_23-2148230327.jpg');
+    
+    height: 300px;
+    margin-top: 10px;
+    h2{
+        font-family: Playlist-Script;
+        font-size: 100px;
+        text-align: center;
+        padding-top: 25px;
+        color: white;
+    }
+    h1{
+        font-family: 'Sanchez', serif;
+        letter-spacing: 3px;
+        font-size: 23px;
+        color: white;
+        text-align: center;
+    }
+    p{
+        font-family: Playlist-Script;
+        font-size: 90px;
+        text-align: center;
+        color: white;
+    }
+}
